@@ -1,0 +1,131 @@
+.our-clients {
+  padding-top: 130px;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-clients:before {
+  content: "";
+  background-image: url(../../assets/portfolio-right-dec.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 414px;
+  height: 861px;
+  z-index: 1;
+}
+
+.our-clients:after {
+  content: "";
+  background-image: url(../../assets/portfolio-left-dec.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 677px;
+  height: 759px;
+  z-index: 1;
+}
+
+.our-clients .section-heading {
+  margin-bottom: 80px;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 0px;
+  z-index: 2;
+}
+
+.container-fluid .item {
+  position: relative;
+  z-index: 222;
+  height: 150px;
+  width: 200px;
+  display: inline-block;
+}
+
+.clients-item {
+  border-radius: 25px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+}
+
+.clients-item .thumb {
+  position: relative;
+  border-radius: 50px;
+}
+
+.clients-item:hover .down-content h4,
+.clients-item:hover .down-content span {
+  color: #4da6e7;
+}
+
+.clients-item .thumb img {
+  border-top-right-radius: 23px;
+  border-top-left-radius: 23px;
+  overflow: hidden;
+}
+
+.clients-item .down-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 18px 0px;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+
+.clients-item .down-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 8px;
+  transition: all 0.3s;
+}
+
+.clients-item .down-content span {
+  font-size: 15px;
+  color: #afafaf;
+  transition: all 0.3s;
+}
+
+.our-clients .owl-nav {
+  display: inline-block !important;
+  position: absolute;
+  top: -125px;
+  right: 15%;
+  max-width: 1320px;
+}
+
+.our-clients .owl-nav .owl-next {
+  margin-left: 10px;
+}
+
+.our-clients .owl-nav span {
+  width: 46px;
+  height: 46px;
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  font-size: 30px;
+  background-color: #eee;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.our-clients .owl-nav span:hover {
+  color: #fff;
+  background-color: #4da6e7;
+}
+.scroll-Links {
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.corpoClients {
+  margin-left: 28%;
+}

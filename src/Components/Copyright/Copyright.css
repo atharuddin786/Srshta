@@ -1,0 +1,24 @@
+footer {
+  background-image: url(../../assets/footer-bg-v3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 130px;
+}
+
+footer p {
+  text-align: center;
+  margin: 20px 0px;
+  color: #fff;
+}
+
+footer p a {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+/*
+---------------------------------------------
+responsive
+---------------------------------------------
+*/
